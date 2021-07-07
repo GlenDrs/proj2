@@ -2,13 +2,12 @@
  
  puts ("Donnez un numéro? ")
 num5=gets.chomp().to_i
-i=0
+i=1
 
 until i==num5  do
   
     p ("Bonjour toi! ")
     i=i+1
-    break if i>9
 end
 
  #/2.7  Compter/
